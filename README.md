@@ -18,8 +18,14 @@ Before running the project, ensure the following preconditions and dependencies 
 
     ```bash
     cd Drivers/119;
-    xattr -d com.apple.quarantine chromedriver;
+    xattr -d com.apple.quarantine <name-of-executable>;
     ```
+   or
+5. ```bash
+   spctl --add --label 'Approved' <name-of-executable>
+   ```
+   
+
 
 ## Run Instructions
 
