@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="fetchCodingExercise">
+	<test name="Fetch Coding Exercise Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="fetch.codingExercise.balance.testCases.TC_Find_Fake_Bar_Fetch_V_11_2_0"/>
+		</classes>
+	</test>
+
+</suite>
