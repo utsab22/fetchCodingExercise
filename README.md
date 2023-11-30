@@ -42,5 +42,7 @@ To run the automation tests, follow these instructions:
     ```xml
     <parameter name="browser" value="firefox"/>
     ```
+4. **For Logs:** Please check the console.
+
 Feel free to reach out if you have any questions or encounter issues!
 
