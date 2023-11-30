@@ -21,7 +21,7 @@ Before running the project, ensure the following preconditions and dependencies 
     xattr -d com.apple.quarantine <name-of-executable>;
     ```
    or
-5. ```bash
+   ```bash
    spctl --add --label 'Approved' <name-of-executable>
    ```
    
