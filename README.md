@@ -43,6 +43,14 @@ To run the automation tests, follow these instructions:
     <parameter name="browser" value="firefox"/>
     ```
 4. **For Logs:** Please check the console.
+5. **For Checking Browser End Result:** Comment out the `driver.quit();` line in the `terminate()` method of the `BaseClass.java` file.
+
+   Example (BaseClass.java):
+    ```java
+    public void terminate() {
+        // driver.quit();
+    }
+    ```
 
 Feel free to reach out if you have any questions or encounter issues!
 
