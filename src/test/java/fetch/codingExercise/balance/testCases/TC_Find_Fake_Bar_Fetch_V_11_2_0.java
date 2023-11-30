@@ -88,6 +88,7 @@ public class TC_Find_Fake_Bar_Fetch_V_11_2_0 extends BaseClass {
 	
 	public void clickOnFakeCoin(String value) {
 		homePage.clickOnCoinByValue(value);
+		logger.info("Clicked On Fake Coin Bar");
 	}
 	
 
@@ -110,6 +111,7 @@ public class TC_Find_Fake_Bar_Fetch_V_11_2_0 extends BaseClass {
 			System.out.println("Putting " + start + " on the left bowl.");
 			start++;
 		}
+		logger.info("Value Inserted On Left Bowl Input");
 	}
 	
 	public void printWeighingInfo(List<String> weighingList) {
@@ -129,5 +131,6 @@ public class TC_Find_Fake_Bar_Fetch_V_11_2_0 extends BaseClass {
 			System.out.println("Putting " + start + " on the right bowl.");
 			start++;
 		}
+		logger.info("Value Inserted On Right Bowl Input");
 	}
 }
